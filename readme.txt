@@ -20,3 +20,6 @@
 注2: windows环境下注意gbk编码。主要在输入上。更改为如下即可：【.decode('gbk').encode('utf-8')】
     
     vuln_name = raw_input('请输入您要查询的漏洞名字【RSAS漏洞全名】> ').decode('gbk').encode('utf-8').strip()
+    
+    
+![如图](https://github.com/RayScri/RSAS-V6.0-Report_Out/blob/master/test002.jpg)
