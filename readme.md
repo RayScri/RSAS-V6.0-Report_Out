@@ -11,6 +11,8 @@
     1、RSAS_Report_V6.0R01 解决了早期V6的报告中只有index.html和host【前提解压导出的报告，形成文件夹】
     2、RSAS_Report_V6.0R02 解决了V6版本中报告存在vulnhostsfiles的
     3、RSAS_Report_V6.0R03 解决了V6版本中报告存在vulnhostHtml的
+    4、RSAS_Report_all_srv脚本访问了host目录里面所有IP，并打印出2.1漏洞列表的所有的【ip:port:protocol】
+    5、RSAS_Report_http 脚本访问host所有IP之后，根据需求打印出你需要的协议的IP和对应端口。
 
 注1：附图片说明。
 
@@ -19,3 +21,5 @@
     vuln_name = raw_input('请输入您要查询的漏洞名字【RSAS漏洞全名】> ').decode('gbk').encode('utf-8').strip()
     
 ![如图](https://github.com/RayScri/RSAS-V6.0-Report_Out/blob/master/test002.jpg)
+![如图](https://github.com/RayScri/RSAS-V6.0-Report_Out/blob/master/test04.jpg)
+![如图](https://github.com/RayScri/RSAS-V6.0-Report_Out/blob/master/test05.jpg)
