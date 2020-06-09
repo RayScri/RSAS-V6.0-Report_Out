@@ -6,12 +6,19 @@
 
 说明：根据RSAS V6.0具体对版本不同导致报告的输出不一样，写了三个脚本分别解决不同的问题。
     1、RSAS_Report_V6.0R01          解决了早期V6的报告中只有index.html和host【前提解压导出的报告，形成文件夹】
+    
     2、RSAS_Report_V6.0R02          解决了V6版本中报告存在vulnhostsfiles的
+    
     3、RSAS_Report_V6.0R03          解决了V6版本中报告存在vulnhostHtml的
+    
     4、RSAS_Report_V6.0R03F01       解决了V6版本中报告存在vulnHtml的【截止2020.6.9官方最新版本】  
+    
     5、RSAS_Report_all_srv          脚本访问了host目录里面所有IP，并打印出2.1漏洞列表的所有的【ip:port:protocol】(不受版本影响)
+    
     6、RSAS_Report_http             脚本访问host所有IP之后，根据需求打印出你需要的协议的IP和对应端口。(不受版本影响)
+    
     7、RSAS_V6.0R03_all_vuln_txt    把所有rsas的扫描出来的漏洞，及对应的IP、端口，自动提取出来并输出txt。【限制版本为V6.0R03】
+    
     8、RSAS_V6.0R03F01_all_vuln_txt 把所有rsas的扫描出来的漏洞，及对应的IP、端口，自动提取出来并输出txt。【限制版本为V6.0R03F01】
 
 注1：附图片说明。
