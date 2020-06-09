@@ -5,6 +5,7 @@
 对象：RSAS V6.0
 
 说明：根据RSAS V6.0具体对版本不同导致报告的输出不一样，写了三个脚本分别解决不同的问题。
+
     1、RSAS_Report_V6.0R01          解决了早期V6的报告中只有index.html和host【前提解压导出的报告，形成文件夹】
     
     2、RSAS_Report_V6.0R02          解决了V6版本中报告存在vulnhostsfiles的
@@ -20,6 +21,7 @@
     7、RSAS_V6.0R03_all_vuln_txt    把所有rsas的扫描出来的漏洞，及对应的IP、端口，自动提取出来并输出txt。【限制版本为V6.0R03】
     
     8、RSAS_V6.0R03F01_all_vuln_txt 把所有rsas的扫描出来的漏洞，及对应的IP、端口，自动提取出来并输出txt。【限制版本为V6.0R03F01】
+    
 
 注1：附图片说明。
 注2: windows环境下注意gbk编码。主要在输入上。更改为如下即可：【.decode('gbk').encode('utf-8')】
@@ -29,4 +31,5 @@
 ![如图](https://github.com/RayScri/RSAS-V6.0-Report_Out/blob/master/test002.jpg)
 ![如图](https://github.com/RayScri/RSAS-V6.0-Report_Out/blob/master/test04.jpg)
 ![如图](https://github.com/RayScri/RSAS-V6.0-Report_Out/blob/master/test05.jpg)
+![如图](https://github.com/RayScri/RSAS-V6.0-Report_Out/blob/master/test0001.jpg)
 
